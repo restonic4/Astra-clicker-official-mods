@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Astra clicker mod loader",
+  "version": "1.0",
+  "description": "Loads mods into Astra clicker",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "backend.js"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [ "https://astra-clicker.rest-studio.com/*", "https://astra-clicker-testing-version.rest-studio.com/*" ],
+      "js": [ "inyector.js" ],
+      "run_at": "document_start"
+    }
+  ]
+}
