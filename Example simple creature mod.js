@@ -1,3 +1,4 @@
+var Creature = Game.Classes.GameModules.Creatures.Creature(); //We use this to import the Creature class.
 var ClassCollection = Game.Classes.Utility.ClassCollection; //Import.
 var UnlockTrigger = Game.Classes.Triggers.Unlocks.UnlockTrigger; //Import.
 var Reward = Game.Classes.Triggers.Rewards.Reward; //Import.
