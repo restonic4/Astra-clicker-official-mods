@@ -4,9 +4,9 @@ var Reward = Game.Classes.Triggers.Rewards.Reward; //Import.
 
 function start() {
     const bundle = Game.Main.BundleManager.createBundle(
-        "astra_clicker", //mod id
-        "Astra clicker", //mod name
-        "Vanilla experience", //mod description
+        "example_simple_creature, //mod id
+        "Example mod", //mod name
+        "Example mod", //mod description
         "Rest-Studio", //mod authors
         "https://astra-clicker.rest-studio.com/astra_licence.html", //licence
         "https://astra-clicker.rest-studio.com", //website
