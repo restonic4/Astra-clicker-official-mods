@@ -4,7 +4,7 @@ var Reward = Game.Classes.Triggers.Rewards.Reward; //Import.
 
 function start() {
     const bundle = Game.Main.BundleManager.createBundle(
-        "example_simple_creature, //mod id
+        "example_simple_creature", //mod id
         "Example mod", //mod name
         "Example mod", //mod description
         "Rest-Studio", //mod authors
