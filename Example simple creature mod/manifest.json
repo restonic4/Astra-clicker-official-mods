@@ -1,0 +1,23 @@
+{
+  "id": "example_simple_creature",
+  "name": "Example mod",
+  "description": "Adds creatures.",
+  "version": "1.1",
+
+  "author": "Rest-Studio",
+  "license": "https://astra-clicker.rest-studio.com/astra_licence.html",
+  "website": "https://astra-clicker.rest-studio.com",
+
+  "source_code": "We will release the source code soon!",
+  "issue_tracker": "Soon!",
+
+  "donations": "https://patreon.com/restonic4",
+
+  "dependencies": {
+    {
+      "id": "astra_clicker",
+      "version": "[0.2, ]",
+      "required":  true
+    }
+  }
+}
